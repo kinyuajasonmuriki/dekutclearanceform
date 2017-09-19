@@ -1,0 +1,91 @@
+body{
+	background: #043823 none repeat scroll 0% 0%;
+}
+.login-form{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.login-form h2{
+	background: #429212 none repeat scroll 0% 0%;
+	text-transform: uppercase;
+	font-family: "Open Sans Condensed",sans-serif;
+	color: #DADFEA;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px;
+	text-align: center;
+	text-shadow: 1px 0px 1px cyan;
+	font-size: 19pt;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.login-form input[type="text"],
+.login-form input[type="date"],
+.login-form input[type="datetime"],
+.login-form input[type="email"],
+.login-form input[type="number"],
+.login-form input[type="search"],
+.login-form input[type="time"],
+.login-form input[type="url"],
+.login-form input[type="password"],
+.login-form textarea,
+.login-form select
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.login-form textarea{
+	resize:none;
+	overflow: hidden;
+}
+.login-form input[type="button"],
+.login-form input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background: #15DE11 linear-gradient(to bottom, #46F50F 5%, #29901A 100%) repeat scroll 0% 0%;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 2px #000102;
+}
+.login-form input[type="button"]:hover,
+.login-form input[type="submit"]:hover {
+	background: #1A4106 linear-gradient(to bottom, #1D6606 5%, #27AD13 100%) repeat scroll 0% 0%;
+	background-color:#34CACA;
+}
+#bypass{
+	display: block;
+	font-size: 15pt;
+	text-decoration: none;
+	text-transform: capitalize;
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline brown dotted;
+}
